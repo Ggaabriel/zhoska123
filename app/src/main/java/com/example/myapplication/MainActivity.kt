@@ -53,7 +53,7 @@ class MainActivity : AppCompatActivity() {
                 } else {
                     set.connect(button.id, ConstraintSet.TOP, layout.getChildAt((i - 1) * rowsAndColumns + j).id, ConstraintSet.BOTTOM);
                 }
-            }4
+            }
         }
 
         set.applyTo(layout)
